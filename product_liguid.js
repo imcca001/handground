@@ -340,9 +340,7 @@
                 {% endif %}
               </div>
             {% endform %}
-            <div class="product-single__description rte" itemprop="description">
-            {{ product.description }}
-          </div>
+            
                    
     </div>
 
@@ -354,6 +352,9 @@
         </div>
       </div>
     </div>
+    <div class="product-single__description rte" itemprop="description">
+            {{ product.description }}
+          </div>
 
     <div id="cbb-also-bought-box"></div>
     {% if collection %}
